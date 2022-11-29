@@ -14,7 +14,9 @@ for (let i = 1; i <= 100; i++) {
 	
 	// 2.2 - sostituisci con "Buzz" i multipli di 5
 	
-	
+	else if (number%5 == 0) {
+		number = `Buzz`;
+	}
 	
 	// 2.3 - sostituisci con "FizzBuzz" i multipli di 3 e 5
 	console.log(number);
